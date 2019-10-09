@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+  <h1>
+    Hola {{ title }}!
+  </h1>
+
+
+<nav><a [routerLink]="['/pagina-principal']" [routerLinkActive]="['activado']">
+  HOME -
+</a>
+<a [routerLink]="['/fruta']" [routerLinkActive]="['activado']">
+  FRUTA -
+
+</a>
+<a [routerLink]="['/empleados']" [routerLinkActive]="['activado']">
+  EMPLEADO -
+
+</a><a [routerLink]="['/contacto']" [routerLinkActive]="['activado']">
+  CONTACTO -
+</a>
+<a [routerLink]="['/coches']" [routerLinkActive]="['activado']">
+  Coches -
+</a>
+</nav>
+
+
+  <!----<Empleado> </Empleado>--->
+  <router-outlet></router-outlet>
